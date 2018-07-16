@@ -1,0 +1,2 @@
+RewriteCond %{THE_REQUEST} ^GET\s.+\.shtml [NC]
+RewriteRule ^(.+)\.shtml$ /$1 [R=301,L,NC]
