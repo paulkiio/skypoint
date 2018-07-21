@@ -118,12 +118,12 @@ jQuery(document).ready(function( $ ) {
 
   // custom code
   // About page underline
-  var aboutPage = document.getElementById("about-message") ? document.getElementById("about-message") : null;
+  var aboutPageLi = document.getElementById("about-li") ? document.getElementById("about-li") : null,
+      homeLi = document.querySelector(".nav-menu > li") ? document.querySelector(".nav-menu > li") : null;
 
-  if (aboutPage) {
-    var aboutNavBtn = document.getElementById("about-li");
-
-    console.log("on the about page!")
-  } 
+  if (aboutPageLi) {
+    $(aboutPageLi).addClass("menu-active");
+    $(homeLi).removeClass("menu-active")
+  }
 
 });
