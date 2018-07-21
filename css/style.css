@@ -216,8 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 250px;
 }
 
-/* custom */
-@media (max-width: 400px) {
+@media screen and (max-width: 470px) {
   #hero-message {
     padding: 0px
   }
