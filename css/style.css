@@ -218,7 +218,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 470px) {
   #hero-message {
-    padding: 0px
+    padding: 0px;
+    font-size: 20px;
   }
 }
 
@@ -428,6 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav-toggle i {
   color: #fff;
   padding-top: 16px;
+  padding-left: 10px;
 
 }
 
