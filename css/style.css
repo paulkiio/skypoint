@@ -67,6 +67,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 400px) {
+  .back-to-top {
+    display: none;
+  }
+}
+
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -182,6 +188,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -206,6 +214,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero-message {
   color: white;
   padding-left: 250px;
+}
+
+/* custom */
+@media (max-width: 400px) {
+  #hero-message {
+    padding: 0px
+  }
 }
 
 #about-hero {
@@ -1125,8 +1140,8 @@ div.services-photos div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
 }
 
 .services-photos img {
-  width: 285px;
-  height: 230px;
+  width: 100%;
+  height: auto;
 }
 
 .services-photos h5 {
